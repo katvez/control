@@ -1,5 +1,4 @@
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
-import LoginScreen from './LoginScreen';
 
 export default function LoginScreen({navigation}: any) {
 
