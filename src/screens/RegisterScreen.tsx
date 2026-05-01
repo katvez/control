@@ -38,7 +38,7 @@ export default function RegistrerScreen({ navigation }: any) {
     return (
         <View style={styles.container}>
 
-            <Text style={styles.tittle}>Criar Conta</Text>
+            <Text style={styles.title}>Criar Conta</Text>
 
             <TouchableOpacity
                 style={styles.imageContainer}
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     },
 
     imageText: {
-        color: "#1E88E5"
+        color: "#ec9ce2ff"
     },
 
     input: {
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     },
 
     button: {
-        backgroundColor: "#1E88E5",
+        backgroundColor: "#ec9ce2ff",
         padding: 15,
         borderRadius: 8,
         alignItems: "center"
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     link: {
         marginTop: 20,
         textAlign: "center",
-        color: "#1E88E5"
+        color: "#ec9ce2ff"
     }
 
 });
